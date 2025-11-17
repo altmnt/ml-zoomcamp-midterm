@@ -1,0 +1,51 @@
+Respondent ID
+(tech) SEX. Record the respondent's gender WITHOUT ASKING:
+How old are you (full years)?
+Region
+Type of settlement
+dzh1. Let's change the topic. Do you have pets in your family or not? If yes, which ones?
+dzh1. Let's change the topic. Do you have pets in your family or not? If yes, which ones?
+dzh1. Let's change the topic. Do you have pets in your family or not? If yes, which ones?
+dzh1. Let's change the topic. Do you have pets in your family or not? If yes, which ones?
+dzh1. Let's change the topic. Do you have pets in your family or not? If yes, which ones?
+dzh1. Let's change the topic. Do you have pets in your family or not? If yes, which ones?
+dzh1. Let's change the topic. Do you have pets in your family or not? If yes, which ones?
+dzh1. Let's change the topic. Do you have pets in your family or not? If yes, which ones?
+dzh1. Let's change the topic. Do you have pets in your family or not? If yes, which ones?
+dzh1. Let's change the topic. Do you have pets in your family or not? If yes, which ones?
+dzh1. Let's change the topic. Do you have pets in your family or not? If yes, which ones?
+dzh1. Let's change the topic. Do you have pets in your family or not? If yes, which ones?
+dzh2. Which of the following amenities for animals are available in your residential area or within walking distance (up to 30 minutes on foot)?
+dzh2. Which of the following amenities for animals are available in your residential area or within walking distance (up to 30 minutes on foot)?
+dzh2. Which of the following amenities for animals are available in your residential area or within walking distance (up to 30 minutes on foot)?
+dzh2. Which of the following amenities for animals are available in your residential area or within walking distance (up to 30 minutes on foot)?
+dzh2. Which of the following amenities for animals are available in your residential area or within walking distance (up to 30 minutes on foot)?
+dzh2. Which of the following amenities for animals are available in your residential area or within walking distance (up to 30 minutes on foot)?
+dzh2. Which of the following amenities for animals are available in your residential area or within walking distance (up to 30 minutes on foot)?
+dzh2. Which of the following amenities for animals are available in your residential area or within walking distance (up to 30 minutes on foot)?
+dzh2. Which of the following amenities for animals are available in your residential area or within walking distance (up to 30 minutes on foot)?
+dzh2. Which of the following amenities for animals are available in your residential area or within walking distance (up to 30 minutes on foot)?
+dzh2. Which of the following amenities for animals are available in your residential area or within walking distance (up to 30 minutes on foot)?
+dzh2. Which of the following amenities for animals are available in your residential area or within walking distance (up to 30 minutes on foot)?
+dzh3. Have you ever encountered or not encountered negative attitudes from other people towards your pet in a public place? If yes, how often?
+dzh4. Generally speaking, to what extent are you satisfied with the availability of dog walking facilities in your area? Rate on a 5-point scale, where 5 is completely satisfied, and 1 is completely dissatisfied.
+dzh5. In the past six months to a year, have there been cases when someone's pet dogs bothered you in public places? I will read out the options, and you select those that bothered you.
+dzh5. In the past six months to a year, have there been cases when someone's pet dogs bothered you in public places? I will read out the options, and you select those that bothered you.
+dzh5. In the past six months to a year, have there been cases when someone's pet dogs bothered you in public places? I will read out the options, and you select those that bothered you.
+dzh5. In the past six months to a year, have there been cases when someone's pet dogs bothered you in public places? I will read out the options, and you select those that bothered you.
+dzh5. In the past six months to a year, have there been cases when someone's pet dogs bothered you in public places? I will read out the options, and you select those that bothered you.
+dzh5. In the past six months to a year, have there been cases when someone's pet dogs bothered you in public places? I will read out the options, and you select those that bothered you.
+dzh5. In the past six months to a year, have there been cases when someone's pet dogs bothered you in public places? I will read out the options, and you select those that bothered you.
+dzh5. In the past six months to a year, have there been cases when someone's pet dogs bothered you in public places? I will read out the options, and you select those that bothered you.
+dzh5. In the past six months to a year, have there been cases when someone's pet dogs bothered you in public places? I will read out the options, and you select those that bothered you.
+dzh5. In the past six months to a year, have there been cases when someone's pet dogs bothered you in public places? I will read out the options, and you select those that bothered you.
+dzh5. In the past six months to a year, have there been cases when someone's pet dogs bothered you in public places? I will read out the options, and you select those that bothered you.
+dzh5. In the past six months to a year, have there been cases when someone's pet dogs bothered you in public places? I will read out the options, and you select those that bothered you.
+dzh5. In the past six months to a year, have there been cases when someone's pet dogs bothered you in public places? I will read out the options, and you select those that bothered you.
+TV. Let's talk a bit about you. Tell me, please, do you watch TV or not? If you do, how often?
+d1. Tell me, please, do you use the internet? If yes, how often?
+EDU. What is your education level?
+DOHOD-0. How would you assess the current financial situation of your family - you and your relatives permanently living with you?
+PROF_1. Tell me, please, what is your main occupation at the moment? I will read out the answer options, and you choose the one that suits you.
+PROF_2. In our country there are organizations of different types. Now I will read out several options, and you tell me which one best corresponds to the organization/enterprise where you work.
+PROF_3. Tell me, what industry or field of activity does the organization where you work belong to?

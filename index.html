@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Preference Prediction API Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        select, input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+            display: none;
+        }
+        .prediction {
+            font-size: 24px;
+            font-weight: bold;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        .probabilities {
+            margin-top: 10px;
+        }
+        .prob-item {
+            padding: 5px;
+            margin: 5px 0;
+            background-color: #e8f5e9;
+            border-radius: 4px;
+        }
+        .error {
+            color: #f44336;
+            background-color: #ffebee;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .api-config {
+            background-color: #e3f2fd;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🐱🐶 Pet Preference Prediction</h1>
+        
+        <div class="api-config">
+            <label for="apiBase">API Base URL:</label>
+            <input type="text" id="apiBase" value="https://zoomcamp-midterm.a7e.top" placeholder="https://zoomcamp-midterm.a7e.top">
+        </div>
+
+        <form id="predictionForm">
+            <div class="form-group">
+                <label for="SEX">Gender (SEX):</label>
+                <select id="SEX" required>
+                    <option value="">-- Select --</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="AGE">Age (AGE):</label>
+                <input type="number" id="AGE" min="18" max="100" value="30" required>
+            </div>
+
+            <div class="form-group">
+                <label for="TIP">Type of Settlement (TIP):</label>
+                <select id="TIP" required>
+                    <option value="">-- Select --</option>
+                    <option value="village">Village</option>
+                    <option value="city_small">City with population less than 50 thousand</option>
+                    <option value="city_medium">City with population from 50 thousand to 100 thousand</option>
+                    <option value="settlement">Urban-type settlement</option>
+                    <option value="city_large">City with population from 100 thousand to 500 thousand</option>
+                    <option value="city_very_large">City with population from 500 thousand to 950 thousand</option>
+                    <option value="city_megapolis">City with population of one million or more</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="TV">TV Watching Frequency (TV):</label>
+                <select id="TV" required>
+                    <option value="">-- Select --</option>
+                    <option value="never">Don't watch</option>
+                    <option value="rarely">Rarely, but not less than once every six months</option>
+                    <option value="monthly">Several times a month</option>
+                    <option value="weekly">Several times a week</option>
+                    <option value="daily">Daily less than four hours a day</option>
+                    <option value="heavy">Watch more than four hours daily</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="d1">Internet Usage Frequency (d1):</label>
+                <select id="d1" required>
+                    <option value="">-- Select --</option>
+                    <option value="never">Don't use</option>
+                    <option value="rarely">Rarely, but not less than once every six months</option>
+                    <option value="monthly">Several times a month</option>
+                    <option value="weekly">Several times a week</option>
+                    <option value="daily">Daily less than four hours a day</option>
+                    <option value="heavy">Spend more than four hours online daily</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="EDU">Education Level (EDU):</label>
+                <select id="EDU" required>
+                    <option value="">-- Select --</option>
+                    <option value="incomplete">No basic general education</option>
+                    <option value="basic">Basic general education (9 grades)</option>
+                    <option value="secondary">Complete general secondary (10-11 grades)</option>
+                    <option value="vocational">Secondary vocational (technical school, college)</option>
+                    <option value="higher">Incomplete higher or completed higher education</option>
+                    <option value="advanced">Two or more higher education degrees</option>
+                    <option value="refused">Refusal to answer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="DOHOD_0">Financial Situation (DOHOD-0):</label>
+                <select id="DOHOD_0" required>
+                    <option value="">-- Select --</option>
+                    <option value="very_poor">Very poor</option>
+                    <option value="poor">Poor</option>
+                    <option value="average">Average</option>
+                    <option value="good">Good</option>
+                    <option value="very_good">Very good</option>
+                    <option value="unknown">Hard to answer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="PROF1">Main Occupation (PROF1):</label>
+                <select id="PROF1" required>
+                    <option value="">-- Select --</option>
+                    <option value="employed">Working under contract, employed</option>
+                    <option value="student_working">Working student</option>
+                    <option value="student">Non-working student</option>
+                    <option value="self_employed">Self-employed</option>
+                    <option value="entrepreneur">Entrepreneur, business owner</option>
+                    <option value="unemployed">Temporarily not working, unemployed</option>
+                    <option value="pensioner">Non-working pensioner</option>
+                    <option value="pensioner_working">Working pensioner</option>
+                    <option value="maternity">On maternity leave, childcare leave</option>
+                    <option value="unknown">Hard to answer</option>
+                    <option value="refused">Refusal to answer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="PROF2">Organization Type (PROF2):</label>
+                <select id="PROF2" required>
+                    <option value="">-- Select --</option>
+                    <option value="commercial">Commercial organization</option>
+                    <option value="budgetary">Budgetary organization</option>
+                    <option value="nonprofit">Non-profit organization</option>
+                    <option value="government">Government authorities, administration</option>
+                    <option value="law_enforcement">Law enforcement, armed forces</option>
+                    <option value="unknown">Hard to answer / Not applicable</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="PROF3">Industry (PROF3):</label>
+                <select id="PROF3" required>
+                    <option value="">-- Select --</option>
+                    <option value="it">Information technology, communications, internet</option>
+                    <option value="education">Education, science</option>
+                    <option value="healthcare">Healthcare</option>
+                    <option value="trade">Trade (wholesale, retail, online sales)</option>
+                    <option value="finance">Financial and insurance activities, banking</option>
+                    <option value="transportation">Transportation and storage</option>
+                    <option value="construction">Construction</option>
+                    <option value="industry">Industry, manufacturing</option>
+                    <option value="hospitality">Public catering, restaurant and hotel business</option>
+                    <option value="agriculture">Agriculture, forestry, hunting, fishing</option>
+                    <option value="law_enforcement">Law enforcement, security forces</option>
+                    <option value="administration">State and municipal administration</option>
+                    <option value="services">Services, service sector</option>
+                    <option value="media">Mass media (journalism, blogging, advertising)</option>
+                    <option value="culture">Culture, arts, sports</option>
+                    <option value="entertainment">Leisure and entertainment, tourism</option>
+                    <option value="utilities">Housing and communal services</option>
+                    <option value="social_services">Social services, social security</option>
+                    <option value="other">Other</option>
+                    <option value="unknown">Hard to answer / Not applicable</option>
+                    <option value="refused">Refusal to answer</option>
+                </select>
+            </div>
+
+            <button type="submit">Predict Pet Preference</button>
+        </form>
+
+        <div id="result"></div>
+    </div>
+
+    <script>
+        document.getElementById('predictionForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const apiBase = document.getElementById('apiBase').value.trim();
+            const resultDiv = document.getElementById('result');
+            
+            const data = {
+                SEX: document.getElementById('SEX').value,
+                AGE: parseInt(document.getElementById('AGE').value),
+                TIP: document.getElementById('TIP').value,
+                TV: document.getElementById('TV').value,
+                d1: document.getElementById('d1').value,
+                EDU: document.getElementById('EDU').value,
+                "DOHOD-0": document.getElementById('DOHOD_0').value,
+                PROF1: document.getElementById('PROF1').value,
+                PROF2: document.getElementById('PROF2').value,
+                PROF3: document.getElementById('PROF3').value
+            };
+
+            try {
+                const response = await fetch(`${apiBase}/predict`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const result = await response.json();
+                
+                resultDiv.style.display = 'block';
+                resultDiv.innerHTML = `
+                    <div class="prediction">Prediction: ${result.prediction}</div>
+                    <div class="probabilities">
+                        <strong>Probabilities:</strong>
+                        ${Object.entries(result.probabilities)
+                            .sort((a, b) => b[1] - a[1])
+                            .map(([label, prob]) => 
+                                `<div class="prob-item">${label}: ${(prob * 100).toFixed(2)}%</div>`
+                            ).join('')}
+                    </div>
+                `;
+            } catch (error) {
+                resultDiv.style.display = 'block';
+                resultDiv.innerHTML = `<div class="error">Error: ${error.message}</div>`;
+                console.error('Error:', error);
+            }
+        });
+    </script>
+</body>
+</html>

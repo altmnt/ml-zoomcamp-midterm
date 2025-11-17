@@ -1,0 +1,343 @@
+column,value,label
+SEX,Male,male
+SEX,Female,female
+FO,Central Federal District,central
+FO,Southern Federal District,southern
+FO,Ural Federal District,ural
+FO,Northwestern Federal District,northwestern
+FO,Volga Federal District,volga
+FO,Siberian Federal District,siberian
+FO,North Caucasian Federal District,north_caucasian
+FO,Far Eastern Federal District,far_eastern
+TIP,Village,village
+TIP,City with population less than 50 thousand,city_small
+TIP,City with population from 50 thousand to 100 thousand,city_medium
+TIP,Urban-type settlement,settlement
+TIP,City with population from 100 thousand to 500 thousand,city_large
+TIP,City with population from 500 thousand to 950 thousand,city_very_large
+TIP,City with population of one million or more,city_megapolis
+dzh1_1,Mixed-breed dog,dog_mixed
+dzh1_1,"No, no pets",no_pets
+dzh1_1,Mixed-breed cat,cat_mixed
+dzh1_1,Purebred dog,dog_purebred
+dzh1_1,Purebred cat,cat_purebred
+dzh1_1,Other,other
+dzh1_1," Small animals (hamsters, guinea pigs, turtles, etc.)",small_animals
+dzh1_1,"Livestock (chickens, cows, goats, etc.) (from other)",livestock
+dzh1_1,Hard to answer,unknown
+dzh1_1,"Exotic animals (snakes, lizards, monkeys, crocodiles, etc.)",exotic
+dzh1_1,Decorative birds,birds
+dzh1_1,Aquarium fish,fish
+dzh1_2,,
+dzh1_2,Mixed-breed cat,cat_mixed
+dzh1_2,Purebred cat,cat_purebred
+dzh1_2,Mixed-breed dog,dog_mixed
+dzh1_2,Decorative birds,birds
+dzh1_2," Small animals (hamsters, guinea pigs, turtles, etc.)",small_animals
+dzh1_2,Purebred dog,dog_purebred
+dzh1_2,Aquarium fish,fish
+dzh1_2,"Livestock (chickens, cows, goats, etc.) (from other)",livestock
+dzh1_2,Other,other
+dzh1_2,"Exotic animals (snakes, lizards, monkeys, crocodiles, etc.)",exotic
+dzh1_3,,
+dzh1_3,Purebred dog,dog_purebred
+dzh1_3,Purebred cat,cat_purebred
+dzh1_3,Other,other
+dzh1_3,Mixed-breed cat,cat_mixed
+dzh1_3,"Livestock (chickens, cows, goats, etc.) (from other)",livestock
+dzh1_3,Decorative birds,birds
+dzh1_3," Small animals (hamsters, guinea pigs, turtles, etc.)",small_animals
+dzh1_3,Aquarium fish,fish
+dzh1_3,Mixed-breed dog,dog_mixed
+dzh1_3,"Exotic animals (snakes, lizards, monkeys, crocodiles, etc.)",exotic
+dzh1_4,,
+dzh1_4,Mixed-breed dog,dog_mixed
+dzh1_4,Purebred cat,cat_purebred
+dzh1_4,"Livestock (chickens, cows, goats, etc.) (from other)",livestock
+dzh1_4," Small animals (hamsters, guinea pigs, turtles, etc.)",small_animals
+dzh1_4,Mixed-breed cat,cat_mixed
+dzh1_4,Aquarium fish,fish
+dzh1_4,Decorative birds,birds
+dzh1_4,Purebred dog,dog_purebred
+dzh1_4,"Exotic animals (snakes, lizards, monkeys, crocodiles, etc.)",exotic
+dzh1_4,Hard to answer,unknown
+dzh1_5,,
+dzh1_5,Purebred cat,cat_purebred
+dzh1_5,Hard to answer,unknown
+dzh1_5,"Exotic animals (snakes, lizards, monkeys, crocodiles, etc.)",exotic
+dzh1_5," Small animals (hamsters, guinea pigs, turtles, etc.)",small_animals
+dzh1_6,,
+dzh1_6," Small animals (hamsters, guinea pigs, turtles, etc.)",small_animals
+dzh1_6,Mixed-breed cat,cat_mixed
+dzh1_6,Decorative birds,birds
+dzh1_7,,
+dzh1_8,,
+dzh1_9,,
+dzh1_10,,
+dzh1_11,,
+dzh1_12,,
+dzh2_1,Nothing,nothing
+dzh2_1,,
+dzh2_1,"Stores where you can be with animals",pet_stores
+dzh2_1,Veterinary clinics,vet_clinic
+dzh2_1,Pet stores,pet_store
+dzh2_1,Specially fenced areas for walking or training pets,dog_park
+dzh2_1,Grooming salons (animal care),grooming
+dzh2_1,Paw washing stations in the building,paw_wash
+dzh2_1,"Cafes where you can be with animals",pet_cafe
+dzh2_1,Hard to answer,unknown
+dzh2_1,Stands with bags for cleaning up after dogs,bag_stands
+dzh2_1,Specialized bins for disposal of dog waste,waste_bins
+dzh2_2,,
+dzh2_2,Pet stores,pet_store
+dzh2_2,Specialized bins for disposal of dog waste,waste_bins
+dzh2_2,Grooming salons (animal care),grooming
+dzh2_2,"Stores where you can be with animals",pet_stores
+dzh2_2,Stands with bags for cleaning up after dogs,bag_stands
+dzh2_2,Veterinary clinics,vet_clinic
+dzh2_2,Specially fenced areas for walking or training pets,dog_park
+dzh2_2,"Cafes where you can be with animals",pet_cafe
+dzh2_2,Paw washing stations in the building,paw_wash
+dzh2_3,,
+dzh2_3,Grooming salons (animal care),grooming
+dzh2_3,"Cafes where you can be with animals",pet_cafe
+dzh2_3,"Stores where you can be with animals",pet_stores
+dzh2_3,Pet stores,pet_store
+dzh2_3,Stands with bags for cleaning up after dogs,bag_stands
+dzh2_3,Veterinary clinics,vet_clinic
+dzh2_3,Specially fenced areas for walking or training pets,dog_park
+dzh2_3,Paw washing stations in the building,paw_wash
+dzh2_3,Specialized bins for disposal of dog waste,waste_bins
+dzh2_4,,
+dzh2_4,Veterinary clinics,vet_clinic
+dzh2_4,"Stores where you can be with animals",pet_stores
+dzh2_4,Grooming salons (animal care),grooming
+dzh2_4,Specially fenced areas for walking or training pets,dog_park
+dzh2_4,Pet stores,pet_store
+dzh2_4,"Cafes where you can be with animals",pet_cafe
+dzh2_4,Specialized bins for disposal of dog waste,waste_bins
+dzh2_4,Stands with bags for cleaning up after dogs,bag_stands
+dzh2_4,Paw washing stations in the building,paw_wash
+dzh2_5,,
+dzh2_5,Pet stores,pet_store
+dzh2_5,Veterinary clinics,vet_clinic
+dzh2_5,Specially fenced areas for walking or training pets,dog_park
+dzh2_5,Specialized bins for disposal of dog waste,waste_bins
+dzh2_5,Paw washing stations in the building,paw_wash
+dzh2_5,"Stores where you can be with animals",pet_stores
+dzh2_5,Stands with bags for cleaning up after dogs,bag_stands
+dzh2_5,"Cafes where you can be with animals",pet_cafe
+dzh2_5,Grooming salons (animal care),grooming
+dzh2_6,,
+dzh2_6,Specialized bins for disposal of dog waste,waste_bins
+dzh2_6,"Stores where you can be with animals",pet_stores
+dzh2_6,Veterinary clinics,vet_clinic
+dzh2_6,"Cafes where you can be with animals",pet_cafe
+dzh2_6,Grooming salons (animal care),grooming
+dzh2_6,Specially fenced areas for walking or training pets,dog_park
+dzh2_6,Paw washing stations in the building,paw_wash
+dzh2_6,Stands with bags for cleaning up after dogs,bag_stands
+dzh2_6,Pet stores,pet_store
+dzh2_7,,
+dzh2_7,"Cafes where you can be with animals",pet_cafe
+dzh2_7,Grooming salons (animal care),grooming
+dzh2_7,Stands with bags for cleaning up after dogs,bag_stands
+dzh2_7,Pet stores,pet_store
+dzh2_7,Paw washing stations in the building,paw_wash
+dzh2_7,Specially fenced areas for walking or training pets,dog_park
+dzh2_7,Specialized bins for disposal of dog waste,waste_bins
+dzh2_7,Veterinary clinics,vet_clinic
+dzh2_7,"Stores where you can be with animals",pet_stores
+dzh2_8,,
+dzh2_8,Veterinary clinics,vet_clinic
+dzh2_8,Specially fenced areas for walking or training pets,dog_park
+dzh2_8,"Stores where you can be with animals",pet_stores
+dzh2_8,Stands with bags for cleaning up after dogs,bag_stands
+dzh2_8,Paw washing stations in the building,paw_wash
+dzh2_8,"Cafes where you can be with animals",pet_cafe
+dzh2_8,Pet stores,pet_store
+dzh2_8,Grooming salons (animal care),grooming
+dzh2_8,Specialized bins for disposal of dog waste,waste_bins
+dzh2_9,,
+dzh2_9,Paw washing stations in the building,paw_wash
+dzh2_9,"Cafes where you can be with animals",pet_cafe
+dzh2_9,Grooming salons (animal care),grooming
+dzh2_9,Specialized bins for disposal of dog waste,waste_bins
+dzh2_9,Veterinary clinics,vet_clinic
+dzh2_9,Specially fenced areas for walking or training pets,dog_park
+dzh2_9,Stands with bags for cleaning up after dogs,bag_stands
+dzh2_9,Pet stores,pet_store
+dzh2_9,"Stores where you can be with animals",pet_stores
+dzh2_10,,
+dzh2_11,,
+dzh2_12,,
+dzh3,No,no
+dzh3,,
+dzh3,"Yes, from time to time",sometimes
+dzh3,I don't go to public places with my pet,no_public
+dzh3,"Yes, often",often
+dzh3,Hard to answer,unknown
+dzh4,5 - completely satisfied,very_satisfied
+dzh4,,
+dzh4,1 - completely dissatisfied,very_dissatisfied
+dzh4,4,satisfied
+dzh4,Hard to answer,unknown
+dzh4,3,neutral
+dzh4,2,dissatisfied
+dzh4,"Animal doesn't require walking, can't assess",not_applicable
+dzh5_1,,
+dzh5_1,Walking aggressive dogs without a muzzle,no_muzzle
+dzh5_1,Nothing bothered me,nothing
+dzh5_1,Loud barking at late or early hours,barking
+dzh5_1,Dogs walking off-leash (without a leash),off_leash
+dzh5_1,Lack of cleanup after dogs in the yard,no_cleanup_yard
+dzh5_1,"Dog bites, attacks on people",attacks
+dzh5_1,Large number of stray dogs (from other),stray_dogs
+dzh5_1,Walking dogs in inappropriate places,wrong_places
+dzh5_1,Hard to answer,unknown
+dzh5_1,Aggressive behavior of dogs towards other animals,aggressive
+dzh5_1,Walking dogs on long leashes,long_leash
+dzh5_1,"Lack of cleanup after dogs in the building (in the elevator, in the entrance)",no_cleanup_building
+dzh5_1,Other,other
+dzh5_2,,
+dzh5_2,"Lack of cleanup after dogs in the building (in the elevator, in the entrance)",no_cleanup_building
+dzh5_2,Walking dogs on long leashes,long_leash
+dzh5_2,Walking dogs in inappropriate places,wrong_places
+dzh5_2,Aggressive behavior of dogs towards other animals,aggressive
+dzh5_2,Large number of stray dogs (from other),stray_dogs
+dzh5_2,Lack of cleanup after dogs in the yard,no_cleanup_yard
+dzh5_2,Dogs walking off-leash (without a leash),off_leash
+dzh5_2,Walking aggressive dogs without a muzzle,no_muzzle
+dzh5_2,"Dog bites, attacks on people",attacks
+dzh5_2,Loud barking at late or early hours,barking
+dzh5_2,Other,other
+dzh5_3,,
+dzh5_3,Lack of cleanup after dogs in the yard,no_cleanup_yard
+dzh5_3,Walking dogs on long leashes,long_leash
+dzh5_3,Walking aggressive dogs without a muzzle,no_muzzle
+dzh5_3,Walking dogs in inappropriate places,wrong_places
+dzh5_3,"Dog bites, attacks on people",attacks
+dzh5_3,Dogs walking off-leash (without a leash),off_leash
+dzh5_3,Loud barking at late or early hours,barking
+dzh5_3,Aggressive behavior of dogs towards other animals,aggressive
+dzh5_3,"Lack of cleanup after dogs in the building (in the elevator, in the entrance)",no_cleanup_building
+dzh5_3,Large number of stray dogs (from other),stray_dogs
+dzh5_4,,
+dzh5_4,Dogs walking off-leash (without a leash),off_leash
+dzh5_4,"Lack of cleanup after dogs in the building (in the elevator, in the entrance)",no_cleanup_building
+dzh5_4,Aggressive behavior of dogs towards other animals,aggressive
+dzh5_4,"Dog bites, attacks on people",attacks
+dzh5_4,Loud barking at late or early hours,barking
+dzh5_4,Lack of cleanup after dogs in the yard,no_cleanup_yard
+dzh5_4,Walking dogs on long leashes,long_leash
+dzh5_4,Walking aggressive dogs without a muzzle,no_muzzle
+dzh5_4,Walking dogs in inappropriate places,wrong_places
+dzh5_4,Other,other
+dzh5_5,,
+dzh5_5,"Lack of cleanup after dogs in the building (in the elevator, in the entrance)",no_cleanup_building
+dzh5_5,Walking dogs on long leashes,long_leash
+dzh5_5,Dogs walking off-leash (without a leash),off_leash
+dzh5_5,Loud barking at late or early hours,barking
+dzh5_5,Walking aggressive dogs without a muzzle,no_muzzle
+dzh5_5,Lack of cleanup after dogs in the yard,no_cleanup_yard
+dzh5_5,Aggressive behavior of dogs towards other animals,aggressive
+dzh5_5,"Dog bites, attacks on people",attacks
+dzh5_5,Walking dogs in inappropriate places,wrong_places
+dzh5_6,,
+dzh5_6,Aggressive behavior of dogs towards other animals,aggressive
+dzh5_6,Walking dogs in inappropriate places,wrong_places
+dzh5_6,"Dog bites, attacks on people",attacks
+dzh5_6,Walking dogs on long leashes,long_leash
+dzh5_6,Dogs walking off-leash (without a leash),off_leash
+dzh5_6,Large number of stray dogs (from other),stray_dogs
+dzh5_6,Walking aggressive dogs without a muzzle,no_muzzle
+dzh5_6,"Lack of cleanup after dogs in the building (in the elevator, in the entrance)",no_cleanup_building
+dzh5_6,Loud barking at late or early hours,barking
+dzh5_7,,
+dzh5_7,Walking dogs in inappropriate places,wrong_places
+dzh5_7,Aggressive behavior of dogs towards other animals,aggressive
+dzh5_7,Walking dogs on long leashes,long_leash
+dzh5_7,"Dog bites, attacks on people",attacks
+dzh5_7,Walking aggressive dogs without a muzzle,no_muzzle
+dzh5_7,Loud barking at late or early hours,barking
+dzh5_7,"Lack of cleanup after dogs in the building (in the elevator, in the entrance)",no_cleanup_building
+dzh5_7,Other,other
+dzh5_8,,
+dzh5_8,"Dog bites, attacks on people",attacks
+dzh5_8,Lack of cleanup after dogs in the yard,no_cleanup_yard
+dzh5_8,Other,other
+dzh5_8,Walking dogs on long leashes,long_leash
+dzh5_8,Large number of stray dogs (from other),stray_dogs
+dzh5_8,Dogs walking off-leash (without a leash),off_leash
+dzh5_9,,
+dzh5_9,Loud barking at late or early hours,barking
+dzh5_9,Dogs walking off-leash (without a leash),off_leash
+dzh5_10,,
+dzh5_11,,
+dzh5_12,,
+dzh5_13,,
+TV,"Rarely, but not less than once every six months",rarely
+TV,Don't watch,never
+TV,Watch more than four hours daily,heavy
+TV,Several times a week,weekly
+TV,Several times a month,monthly
+TV,Daily less than four hours a day,daily
+d1,Spend more than four hours online daily,heavy
+d1,Daily less than four hours a day,daily
+d1,Don't use,never
+d1,Several times a month,monthly
+d1,"Rarely, but not less than once every six months",rarely
+d1,Several times a week,weekly
+EDU,"Secondary vocational (technical school, college, vocational school)",vocational
+EDU,Basic general education: completed 9 (previously 8) grades,basic
+EDU,Complete general secondary (10 or 11 grades of school with certificate),secondary
+EDU,Incomplete higher education (from 3rd year of university) or completed higher education,higher
+EDU,"Two or more higher education degrees, candidate or doctor of sciences degree",advanced
+EDU,(DO NOT READ) Refusal to answer,refused
+EDU,(DO NOT READ) No basic general education: did not complete 9 (previously 8) grades,incomplete
+DOHOD_0,Average,average
+DOHOD_0,Poor,poor
+DOHOD_0,Good,good
+DOHOD_0,Very good,very_good
+DOHOD_0,Very poor,very_poor
+DOHOD_0,Hard to answer,unknown
+PROF1,"Working under contract, employed (except for those on maternity leave, part-time working students, etc.)",employed
+PROF1,"Working student",student_working
+PROF1,Self-employed,self_employed
+PROF1,"Non-working student",student
+PROF1,"Temporarily not working, unemployed",unemployed
+PROF1,(DO NOT READ) Hard to answer,unknown
+PROF1,"Entrepreneur, business owner",entrepreneur
+PROF1,Working pensioner,pensioner_working
+PROF1,(DO NOT READ) Refusal to answer,refused
+PROF1,"On maternity leave, childcare leave",maternity
+PROF1,Non-working pensioner (including disability pension),pensioner
+PROF2,"I work in a COMMERCIAL organization, its goal is to make a profit (e.g., store, factory, farm, joint-stock company, etc.)",commercial
+PROF2,,
+PROF2,Hard to answer / refusal to answer,unknown
+PROF2,"Work in law enforcement, armed forces, emergency services",law_enforcement
+PROF2,"I work in a BUDGETARY organization that provides free services to the population (kindergarten, general education school, etc.)",budgetary
+PROF2,"I work in a NON-PROFIT organization that provides assistance to the population (charitable foundations, support centers, etc.)",nonprofit
+PROF2,"Work in government authorities, administration, judicial bodies",government
+PROF3,"Transportation and storage (warehousing) Includes: Cargo transportation, railway, air, water, space transportation, etc.",transportation
+PROF3,"Information technology, communications, internet Includes: Programming / software development, etc.",it
+PROF3,"Trade (wholesale, retail, online sales; including real estate) Includes: Store, car dealership, auction, etc.",trade
+PROF3,Hard to answer,unknown
+PROF3,"Construction Includes: architecture, design, interior design",construction
+PROF3,,
+PROF3,"Law enforcement, security forces, emergency services, military service Includes: Police, national guard, fire department, etc.",law_enforcement
+PROF3,"Public catering, restaurant and hotel business Includes: Cafe, restaurant, food delivery, etc.",hospitality
+PROF3,"Industry, manufacturing (including extractive, processing industries, energy) Includes: Factory, plant, etc.",industry
+PROF3,"Agriculture, forestry, hunting, fishing and fish farming Includes: Farm, slaughterhouse, etc.",agriculture
+PROF3,"Services, service sector, consumer services Includes: Laundry/dry cleaning, furniture repair, watch repair, jewelry repair, etc.",services
+PROF3,"Education, science Includes: nursery, kindergarten, school, secondary vocational school, university, research institutes, centers",education
+PROF3,"Mass media (including journalism, blogging, advertising, SMM) Includes: Publishing, printing, etc.",media
+PROF3,Other (specify),other
+PROF3,"State and municipal administration, including judicial bodies Includes: Civil service, administrations/prefectures, etc.",administration
+PROF3,"Financial and insurance activities, banking services Includes: Bank, investment fund, financial arbitration, etc.",finance
+PROF3,"Healthcare Includes: clinics, medical centers, hospitals, inpatient facilities, ambulance, sanatoriums",healthcare
+PROF3,"Leisure and entertainment, tourism Includes: Parks, active recreation, rentals (boats, equipment), fairs, etc.",entertainment
+PROF3,"Housing and communal services Includes: water utility, city gas, garbage collection, boiler house, sorting and waste processing, etc.",utilities
+PROF3,Refusal to answer,refused
+PROF3,"Culture, arts, sports Includes: cultural centers, folk art centers, museums, libraries, concert halls, etc.",culture
+PROF3,"Social services, social security Includes: social welfare, pension fund, rehabilitation center, family support center, etc.",social_services
